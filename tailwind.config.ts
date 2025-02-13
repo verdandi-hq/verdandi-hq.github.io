@@ -73,14 +73,21 @@ export default {
           "0%": { backgroundPosition: "100%" },
           "100%": { backgroundPosition: "0%" },
         },
+        shimmer: {
+          "100%": { transform: "translateX(100%)" },
+        }
       },
       animation: {
         "fade-up": "fade-up 0.8s ease-out forwards",
         "fade-in": "fade-in 0.8s ease-out forwards",
         "text-shimmer": "text-shimmer 2.5s ease-out infinite",
+        shimmer: "shimmer 2s linear infinite",
       },
       fontFamily: {
         cormorant: ["Cormorant Garamond", "serif"],
+      },
+      backgroundImage: {
+        "gold-gradient": "linear-gradient(to right, #D4AF37, #FFD700)",
       },
     },
   },
