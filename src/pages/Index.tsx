@@ -21,7 +21,7 @@ const Index = () => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.2, duration: 0.8 }}
-            className="animate-shimmer text-xl mb-6"
+            className="text-verdandi-gold text-xl mb-6"
           >
             Welcome to
           </motion.p>
@@ -29,7 +29,7 @@ const Index = () => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.4, duration: 0.8 }}
-            className="text-5xl md:text-7xl font-semibold mb-8 animate-shimmer"
+            className="text-5xl md:text-7xl font-semibold mb-8"
           >
             Verdandi
           </motion.h1>
